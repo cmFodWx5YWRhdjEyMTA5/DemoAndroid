@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "741418101793",
+    "firebase_url": "https://emailauthentication-1.firebaseio.com",
+    "project_id": "emailauthentication-1",
+    "storage_bucket": "emailauthentication-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741418101793:android:2f61cbdadc5628d1",
+        "android_client_info": {
+          "package_name": "com.example.kuldeep.emailpermissionfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741418101793-2qnmhhum69n6fv9i1o5jfafi49c812q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6wcAfveTmRxugLKZbcYjtnHMJkGwYNPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741418101793:android:5b71e9f9bdad9ec5",
+        "android_client_info": {
+          "package_name": "com.example.kuldeep.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741418101793-2qnmhhum69n6fv9i1o5jfafi49c812q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6wcAfveTmRxugLKZbcYjtnHMJkGwYNPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

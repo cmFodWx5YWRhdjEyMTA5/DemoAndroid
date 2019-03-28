@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                xmlns:tools = "http://schemas.android.com/tools" android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background = "@color/colorBlack"
+                tools:context = "com.example.kuldeep.login.login.LoginActivity">
+	<LinearLayout android:layout_width = "match_parent"
+	              android:layout_height = "wrap_content"
+	              android:orientation = "vertical"
+
+	              android:layout_marginTop = "40dp">
+
+		<TextView
+				android:text = "@string/login"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content" android:id = "@+id/textView2" android:gravity = "center"
+				android:textStyle = "bold" android:textSize = "24sp"
+				android:textColor = "@android:color/background_light" />
+		<android.support.design.widget.TextInputLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "match_parent" android:id = "@+id/email" android:layout_marginTop = "30dp"
+				android:background = "@color/colorYellow" android:layout_marginLeft = "10dp"
+				android:layout_marginRight = "10dp" android:textColorHint = "@color/colorBlack">
+
+			<android.support.design.widget.TextInputEditText
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:hint = "@string/email" android:layout_marginLeft = "10dp" android:layout_marginRight = "10dp"
+					android:textColorLink = "@color/colorBlack" android:textColor = "@color/colorBlack"
+					android:textColorHint = "@color/colorBlack" />
+		</android.support.design.widget.TextInputLayout>
+		<android.support.design.widget.TextInputLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "match_parent" android:id = "@+id/password" android:layout_marginTop = "10dp"
+				android:background = "@color/colorYellow" android:layout_marginLeft = "10dp"
+				android:layout_marginRight = "10dp" android:textColorHint = "@color/colorBlack">
+
+			<android.support.design.widget.TextInputEditText
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:hint = "@string/password" android:layout_marginLeft = "10dp" android:layout_marginRight = "10dp"
+					android:textColorLink = "@color/colorBlack" android:textColorHint = "@color/colorBlack" />
+		</android.support.design.widget.TextInputLayout>
+		<LinearLayout
+				android:orientation = "vertical"
+				android:layout_width = "match_parent"
+				android:layout_height = "match_parent" android:gravity = "center">
+			<Button
+					android:text = "@string/sign"
+					android:layout_width = "117dp"
+					android:layout_height = "wrap_content" android:id = "@+id/sign" android:layout_marginTop = "20dp"
+					android:textColor = "@android:color/black"
+					android:background = "@color/colorYellow"
+					style = "@style/Widget.AppCompat.Button.Borderless.Colored" />
+			<Button
+					android:text = "@string/btn_forgot_password"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content" android:id = "@+id/forget_password"
+					android:layout_marginTop = "70dp"
+					android:background = "@color/colorYellow"
+					android:textColor = "@android:color/black"
+					android:layout_marginLeft = "10dp" android:layout_marginRight = "10dp" />
+			<Button
+					android:text = "@string/not_a_member_get_registered_in"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content" android:id = "@+id/registered"
+					android:textColor = "@color/colorBlack" android:background = "@color/colorYellow"
+					android:layout_marginTop = "20dp" android:layout_marginLeft = "10dp"
+					android:layout_marginRight = "10dp" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+			android:text = "@string/kd_copyrights"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content" android:id = "@+id/textView3"
+			android:gravity = "center"
+			android:textStyle = "bold" android:textSize = "16sp" android:textAlignment = "center"
+			android:textColor = "#ffffff"
+			android:layout_alignParentBottom = "true" android:layout_alignParentStart = "true"
+			android:layout_marginBottom = "10dp" />
+</RelativeLayout>

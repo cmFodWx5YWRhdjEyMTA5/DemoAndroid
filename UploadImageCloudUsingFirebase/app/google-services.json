@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "746848748727",
+    "firebase_url": "https://fir-3-f8adc.firebaseio.com",
+    "project_id": "fir-3-f8adc",
+    "storage_bucket": "fir-3-f8adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746848748727:android:f74d5b60bf2ac751",
+        "android_client_info": {
+          "package_name": "com.example.kuldeep.firebase5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746848748727-07396of406vigtc1b6bcot5lqsbl28c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3SZAPp0qctm9AAo-fbb6AQQYc_jW6c2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746848748727:android:4f1daec118559705",
+        "android_client_info": {
+          "package_name": "com.example.kuldeep.uploadimagecloudusingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746848748727-07396of406vigtc1b6bcot5lqsbl28c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3SZAPp0qctm9AAo-fbb6AQQYc_jW6c2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                                                 xmlns:tools = "http://schemas.android.com/tools"
+                                                 android:layout_width = "match_parent"
+                                                 android:layout_height = "match_parent"
+                                                 android:fitsSystemWindows = "true"
+                                                 tools:context = "com.example.kuldeep.login.login.SignupActivity">
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@color/colorBlack"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:padding="@dimen/activity_horizontal_margin">
+
+
+		<TextView
+				android:text = "@string/register_user"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content" android:id = "@+id/textView4" android:gravity = "center"
+				android:textSize = "24sp" android:textColor = "@color/colorYellow" />
+
+		<android.support.design.widget.TextInputLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content" android:layout_marginTop = "50dp"
+				android:background = "@color/colorYellow" android:textColorHint = "@color/colorBlack">
+
+			<EditText
+					android:id = "@+id/email"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:hint = "@string/email"
+					android:inputType = "textEmailAddress"
+					android:maxLines = "1"
+					android:singleLine = "true"
+					android:textColor = "@color/colorBlack" />
+
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content" android:layout_marginTop = "20dp"
+				android:textColorHint = "@color/colorBlack" android:background = "@color/colorYellow">
+
+			<EditText
+					android:id = "@+id/password"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:focusableInTouchMode = "true"
+					android:imeActionId = "@+id/login"
+					android:imeOptions = "actionUnspecified"
+					android:inputType = "textPassword"
+					android:hint = "@string/hint_password"
+					android:maxLines = "1"
+					android:singleLine = "true"
+					android:textColor = "@color/colorBlack"
+					 tools:ignore = "InvalidImeActionId" />
+
+		</android.support.design.widget.TextInputLayout>
+
+		<Button
+				android:id = "@+id/sign_up_button"
+				style = "?android:textAppearanceSmall"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginTop = "16dp"
+				android:background = "@color/colorYellow"
+				android:text = "@string/action_sign_in_short"
+				android:textColor = "@android:color/black"
+				android:textStyle = "bold" />
+
+		<Button
+				android:id = "@+id/btn_reset_password"
+				android:layout_width = "fill_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginTop = "20dip"
+				android:background = "@null"
+				android:text = "@string/btn_forgot_password"
+				android:textAllCaps = "false"
+				android:textColor = "@color/colorYellow" />
+
+		<!-- Link to Login Screen -->
+
+		<Button
+				android:id = "@+id/sign_in_button"
+				android:layout_width = "fill_parent"
+				android:layout_height = "wrap_content"
+				android:layout_marginTop = "20dip"
+				android:background = "@null"
+				android:text = "@string/btn_link_to_login"
+				android:textAllCaps = "false"
+				android:textColor = "@color/colorYellow"
+				android:textSize = "15sp" />
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
